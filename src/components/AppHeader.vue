@@ -4,6 +4,7 @@ export default{
   data(){
     return{
 
+
     }
   },
 }
@@ -17,7 +18,8 @@ export default{
 <style lang="scss" scoped>
 @use '../styles/partials/_variables.scss' as *;
 
-h1{
-  color: $primary;
+nav{
+  min-height: 100px;
+  background-color: white;
 }
 </style>

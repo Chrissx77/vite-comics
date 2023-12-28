@@ -10,7 +10,10 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
+  <div class="container">
+    <AppHeader />
+
+  </div>
 </template>
 
 <style lang="scss">
