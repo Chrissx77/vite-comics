@@ -1,0 +1,10 @@
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin contain {
+    width: 80%;
+    margin: 0 auto;
+}
