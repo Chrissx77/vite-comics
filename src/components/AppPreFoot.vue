@@ -99,7 +99,8 @@ export default {
 .box-text {
     width: 50%;
     display: flex;
-    padding: 30px;
+    padding: 30px 0;
+    padding-right: 15px;
 
     .comincsShop,.dc,.sites{
         padding: 20px 40px;
