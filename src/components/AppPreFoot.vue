@@ -13,22 +13,21 @@ export default {
                     <div class="cominc">
                         <h3>DC COMINCS</h3>
                         <ul>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
+                            <li>Characters</li>
+                            <li>Comincs</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Video</li>
+                            <li>News</li>
                         </ul>
                     </div>
 
                     <div class="shop">
                         <h3>SHOP</h3>
                         <ul>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
                         </ul>
                     </div>
 
@@ -37,27 +36,27 @@ export default {
                 <div class="dc">
                     <h3>DC</h3>
                         <ul>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
+                            <li>Term of Use</li>
+                            <li>Privacy Police (New)</li>
+                            <li>Ad Choices</li>
+                            <li>Advertising</li>
+                            <li>Job</li>
+                            <li>Subscription</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSR Certificates</li>
+                            <li>Rating</li>
+                            <li>Shop Help</li>
+                            <li>Contact Us</li>
                         </ul>
                 </div>
                 <div class="sites">
                     <h3>SITES</h3>
                         <ul>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
-                            <li>TEST</li>
+                            <li>DC</li>
+                            <li>MAD Magazine</li>
+                            <li>DC Kinds</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
                         </ul>
                 </div>
             </div>
@@ -118,10 +117,16 @@ export default {
 .box-logo {
     display: flex;
     justify-content: center;
-    width: 50%;
+    // width: 50%;
+    height: 10%;
+    position: relative;
 
     img {
-        width: 80%;
+        position: absolute;
+        width: 500px;
+        left: 0;
+        top: -50px;
+        z-index: 0;
     }
 }
 </style>

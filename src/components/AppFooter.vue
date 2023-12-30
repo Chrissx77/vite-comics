@@ -12,12 +12,12 @@ export default {
             </div>
             <div class="box-socials">
                 <ul class="socials">
-                    <li>TEST</li>
-                    <li>TEST</li>
-                    <li>TEST</li>
-                    <li>TEST</li>
-                    <li>TEST</li>
-                    <li>TEST</li>
+                    <li>FOLLOW US</li>
+                    <a href="#"><li><i class="fa-brands fa-facebook"></i></li></a>
+                    <a href="#"><li><i class="fa-brands fa-youtube"></i></li></a>
+                    <a href="#"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+                    <a href="#"><li><i class="fa-brands fa-pinterest"></i></li></a>
+                    <a href="#"><li><i class="fa-solid fa-location-dot"></i></li></a>
                 </ul>
             </div>
         </div>
@@ -30,6 +30,8 @@ export default {
 @use '../styles/partials/variables' as *;
 
 footer {
+    position: relative;
+    z-index: 1;
     padding: 50px;
     background-color: #303030;
     
@@ -48,6 +50,27 @@ footer {
         a{
             text-decoration: none;
             color: white;
+        }
+
+        .button{
+            border: 2px solid #0678e2;
+            padding: 15px;
+
+        }
+
+        .socials{
+            color: #0678e2;
+            font-weight: bold;
+            font-size: 1.2rem;
+
+            a{
+                li{
+                    i{
+                        color: #b1b1b1;
+                    }
+                }
+            }
+
         }
     }
 }

@@ -22,43 +22,43 @@ export default {
     <div class="menu">
       <ul>
         <li>
-          <a href="#">TEST</a>
+          <a href="#">CHARACTERS</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">COMICS</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">MOVIES</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">TV</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">GAMES</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">COLLECTIBLES</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">VIDEOS</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">FANS</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">NEWS</a>
         </li>
 
         <li>
-          <a href="#">TEST</a>
+          <a href="#">SHOP</a>
         </li>
       </ul>
     </div>
@@ -85,6 +85,8 @@ header {
       a {
         text-decoration: none;
         color: #3e4446;
+        font-size: 0.7rem;
+        font-weight: bold;
       }
     }
   }

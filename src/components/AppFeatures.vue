@@ -59,6 +59,11 @@ export default {
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
 
+.cards{
+    position: relative;
+    z-index: 1;
+}
+
 
 div {
     background-color: $primary;
