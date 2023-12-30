@@ -1,12 +1,14 @@
 <script>
+import AppJumbo from './AppJumbo.vue';
 import AppMainProduct from './AppMainProduct.vue';
 
 export default {
     name: "AppMain",
 
     components: {
-        AppMainProduct,
-    },
+    AppMainProduct,
+    AppJumbo
+},
 
     data() {
         return {
@@ -90,8 +92,8 @@ export default {
 </script>
 
 <template>
+    <AppJumbo/>
     <div class="container">
-        
         <div class="cards">
             <AppMainProduct v-for="(product, index) in products" :key="index" :details="product" />
         </div>
