@@ -1,12 +1,10 @@
 <script>
 export default {
   name: "AppHeader",
-  // data() {
-  //   return {
 
-
-  //   }
-  // },
+  props:{
+    links: Array,
+  }
 }
 
 </script>
@@ -21,44 +19,10 @@ export default {
 
     <div class="menu">
       <ul>
-        <li>
-          <a href="#">CHARACTERS</a>
-        </li>
-
-        <li>
-          <a href="#">COMICS</a>
-        </li>
-
-        <li>
-          <a href="#">MOVIES</a>
-        </li>
-
-        <li>
-          <a href="#">TV</a>
-        </li>
-
-        <li>
-          <a href="#">GAMES</a>
-        </li>
-
-        <li>
-          <a href="#">COLLECTIBLES</a>
-        </li>
-
-        <li>
-          <a href="#">VIDEOS</a>
-        </li>
-
-        <li>
-          <a href="#">FANS</a>
-        </li>
-
-        <li>
-          <a href="#">NEWS</a>
-        </li>
-
-        <li>
-          <a href="#">SHOP</a>
+        <li v-for="link in links">
+          <a :href= "link.url" :class="link.current ? 'active' : '' ">
+            {{ link.text }}
+          </a>
         </li>
       </ul>
     </div>
@@ -85,10 +49,14 @@ header {
       a {
         text-decoration: none;
         color: #3e4446;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         font-weight: bold;
       }
     }
+  }
+
+  .active {
+    color: $primary;
   }
 
 
